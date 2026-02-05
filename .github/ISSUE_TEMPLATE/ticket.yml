@@ -11,14 +11,6 @@ body:
         Danke fürs Melden des Problems!  
         Du musst nicht super technisch sein – kurze, einfache Erklärungen reichen völlig 👍
 
-  - type: input
-    id: title
-    attributes:
-      label: Titel des Problems
-      placeholder: "Skript stürzt beim Laden des Datensatzes auf Server X ab"
-    validations:
-      required: true
-
   - type: textarea
     id: summary
     attributes:
