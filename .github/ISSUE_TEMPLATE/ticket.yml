@@ -20,18 +20,6 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: expected
-    attributes:
-      label: Erwartetes Verhalten
-      placeholder: "Das Skript sollte komplett durchlaufen und alle Dateien speichern."
-
-  - type: textarea
-    id: actual
-    attributes:
-      label: Tatsächliches Verhalten
-      placeholder: "Das Skript stoppt mit einer Fehlermeldung nach Schritt 3."
-
   - type: dropdown
     id: cause
     attributes:
@@ -85,6 +73,6 @@ body:
   - type: textarea
     id: error_logs
     attributes:
-      label: Fehlermeldungen / Logs (falls vorhanden – bitte am Ende einfügen)
+      label: Fehlermeldungen / Logs (falls vorhanden)
       render: shell
       placeholder: "Hier Stacktrace oder Fehlermeldung einfügen"
